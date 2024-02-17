@@ -1,5 +1,5 @@
 {
-  "name": "my-chrome-extension",
+  "name": "tldr",
   "version": "1.0.0",
   "description": "Extension for ToS and PP",
   "main": "popup.js",
