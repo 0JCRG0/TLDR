@@ -1,0 +1,37 @@
+# Dependency directory
+node_modules/
+
+# Build output directory
+dist/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug log from npm
+npm-debug.log*
+
+# Yarn Integrity file
+.yarn-integrity
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.idea
+*.sublime-workspace
+*.sublime-project
+.vscode/
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*~
+
+.eslintrc.js
+webpack.config.js
