@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Text Processor</title>
-    </head>
-        <body>
-            <button id="processText">Process Text</button>
-                <div id="result"></div>
-                <a href="options.html" target="_blank" class="options-link">Settings</a>
-            <script src="popup.js"></script>
-        </body>
+<head>
+    <title>Text Processor</title>
+    <style>
+        /* Add some basic styling */
+        body {
+            width: 300px;
+            padding: 10px;
+        }
+        #result {
+            margin-top: 10px;
+        }
+        form {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <button id="processText">Process Text</button>
+    <div id="result"></div>
+    
+    <!-- Settings form for API key -->
+    <form id="api-key-form">
+        <label for="api-key">API Key:</label>
+        <input type="text" id="api-key" name="api_key" placeholder="Enter your API key">
+        <button type="submit">Save</button>
+    </form>
+    <div id="status-message"></div>
+    <div id="result"></div>
+
+    
+    <script src="popup.js"></script>
+</body>
 </html>
